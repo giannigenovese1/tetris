@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+    font-family: 'Press Start 2P', cursive;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 320px 200px;
+}
+
+.right-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.game-board {
+    border: 2px solid #121212;
+}
